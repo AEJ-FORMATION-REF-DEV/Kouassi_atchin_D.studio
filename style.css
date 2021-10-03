@@ -1,0 +1,67 @@
+.navbar{
+    margin: 10px 70px;
+}
+.navbar .navbar-brand{
+    color: #010e04;
+    font-weight: 600;
+    font-size: 25px;
+}
+.navbar-toggler{
+    background-color: #41494c;
+}
+.navbar-toggler{
+    color: #000;
+}
+.navbar ul li a{
+    margin: 5px;
+    color: #010e04;
+    font-weight: 400;
+}
+.navbar form button{
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid rgb(82, 82, 82);
+    color: #010e04;
+    font-weight: 200;
+    width: 120px;
+}
+.menu{
+    margin-top: 25px;
+    text-align: center;
+}
+.menu h1{
+    margin-top: 60px;
+    color: #010e04;
+    font-weight: 600;
+}
+.menu p{
+    color: #41494c;
+    margin-top: 10px;
+}
+.menu button{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: rgb(1, 14, 4);
+    cursor: pointer;
+    border:none;
+    margin-top: 20px;
+    color: #fff;
+}
+.menu img{
+    margin-left: auto;
+}
+@media (max-width:991px) {
+    .navbar{
+        margin: 10px 20px;
+    }
+    .collapse{
+        margin-top: 20px;
+        text-align: center;
+    }
+    form button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
